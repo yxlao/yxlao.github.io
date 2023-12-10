@@ -1,1 +1,386 @@
-Hello World
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Yixing Lao</title>
+
+  <meta name="author" content="Yixing Lao">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon/favicon.ico" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="images/favicon/favicon.ico" media="(prefers-color-scheme: dark)">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    Yixing Lao
+                  </p>
+                  <p>I'm a PhD Student at <a href="https://www.cs.hku.hk/">The University of Hong Kong</a>,
+                    where I work
+                    on 3D reconstruction and perception, advised by <a href="https://hszhao.github.io/">Hengshuang
+                      Zhao</a>.
+                  </p>
+                  <p>
+                    Previously at Intel, I worked on <a href="https://github.com/isl-org/Open3D">Open3D</a> and <a
+                      href="https://arxiv.org/abs/1801.08058">Deep Learning
+                      Compilers</a>.
+                  </p>
+                  <p style="text-align:center">
+                    <a>yixing.lao [at] gmail.com</a>
+                    &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=2w9VSWIAAAAJ&hl=en">Scholar</a>
+                    &nbsp;/&nbsp;
+                    <a href="https://github.com/yxlao/">GitHub</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:32%;max-width:32%">
+                  <a href="images/profile.jpg"><img style="width:100%;max-width:100%;object-fit: cover;
+                  border-radius: 50%;" alt="profile photo" src="images/profile.jpg" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10" style="display:none;">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>News</h2>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>Dec 2023: <a href="https://github.com/yxlao/camtools/releases/tag/v0.1.4">CamTools v0.1.4</a>
+                      released.
+                    <li>Sept 2023: <a href="https://github.com/yxlao/corres-nerf/">CorresNeRF</a> is accepted to NeurIPS
+                      2023.
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Research</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr onmouseout="owl_stop()" onmouseover="owl_start()" style="display:none;">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="owl_image">
+                      <!-- Replace with the actual image link for the paper -->
+                      <img src="images/owl_hover.jpg" width="160">
+                    </div>
+                    <!-- Replace with the actual image link for the paper -->
+                    <img src="images/owl.jpg" width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function owl_start() {
+                      document.getElementById("owl_image").style.opacity = "1";
+                    }
+                    function owl_stop() {
+                      document.getElementById("owl_image").style.opacity = "0";
+                    }
+                    owl_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="link_to_paper_pdf">
+                    <span class="papertitle">Objects with Lighting: A Real-World Dataset for Evaluating Reconstruction
+                      and Rendering for Object Relighting</span>
+                  </a>
+                  <br>
+                  <a href="placeholder_for_benjamin_ummenhofer">Benjamin Ummenhofer</a>,
+                  <a href="placeholder_for_sanskar_agrawal">Sanskar Agrawal</a>,
+                  <a href="placeholder_for_rene_sepulveda">Rene Sepulveda</a>,
+                  <strong>Yixing Lao</strong>,
+                  <a href="placeholder_for_kai_zhang">Kai Zhang</a>,
+                  <a href="placeholder_for_tianhang_cheng">Tianhang Cheng</a>,
+                  <a href="placeholder_for_stephan_r_richter">Stephan R. Richter</a>,
+                  <a href="placeholder_for_shenlong_wang">Shenlong Wang</a>,
+                  <a href="placeholder_for_german_ros">German Ros</a>
+                  <br>
+                  <em>3DV</em>, 2024
+                  <br>
+                  <a href="">paper</a>
+                  <p></p>
+                  <p>
+                    A real-world dataset for evaluating inverse rendering methods in object
+                    relighting, allowing for a comprehensive analysis of relighting performance.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="corresnerf_stop()" onmouseover="corresnerf_start()" bgcolor="#ffffd0">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="corresnerf_image">
+                      <img src="images/corresnerf_hover.jpg" width="160">
+                    </div>
+                    <img src="images/corresnerf.jpg" width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function corresnerf_start() {
+                      document.getElementById("corresnerf_image").style.opacity = "1";
+                    }
+                    function corresnerf_stop() {
+                      document.getElementById("corresnerf_image").style.opacity = "0";
+                    }
+                    corresnerf_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://github.com/yxlao/corres-nerf/">
+                    <span class="papertitle">CorresNeRF: Image Correspondence Priors for Neural Radiance Fields</span>
+                  </a>
+                  <br>
+                  <strong>Yixing Lao</strong>,
+                  <a href="https://xiaogang00.github.io/">Xiaogang Xu</a>,
+                  <a href="https://zhipengcai.github.io/">Zhipeng Cai</a>,
+                  <a href="https://xh-liu.github.io/">Xihui Liu</a>,
+                  <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
+                  <br>
+                  <em>NeurIPS</em>, 2023
+                  <br>
+                  <a href="https://github.com/yxlao/corres-nerf/">project</a> /
+                  <a href="https://github.com/yxlao/corres-nerf/">code</a> /
+                  <a href="https://github.com/yxlao/corres-nerf/">paper</a>
+                  <p></p>
+                  <p>
+                    Utilizing image correspondences as NeRF priors improves novel view synthesis and surface
+                    reconstruction.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="ptv2_stop()" onmouseover="ptv2_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="ptv2_image">
+                      <img src="images/ptv2_hover.jpg" width="160">
+                    </div>
+                    <img src="images/ptv2.jpg" width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function ptv2_start() {
+                      document.getElementById("ptv2_image").style.opacity = "1";
+                    }
+                    function ptv2_stop() {
+                      document.getElementById("ptv2_image").style.opacity = "0";
+                    }
+                    ptv2_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://github.com/Pointcept/PointTransformerV2">
+                    <span class="papertitle">Point Transformer V2: Grouped Vector Attention and Partition-based
+                      Pooling</span>
+                  </a>
+                  <br>
+                  <a href="https://xywu.me/">Xiaoyang Wu</a>,
+                  <strong>Yixing Lao</strong>,
+                  <a href="https://llijiang.github.io/">Li Jiang</a>,
+                  <a href="https://xh-liu.github.io/">Xihui Liu</a>,
+                  <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
+                  <br>
+                  <em>NeurIPS</em>, 2022
+                  <br>
+                  <a href="https://github.com/Pointcept/PointTransformerV2">code</a> /
+                  <a href="https://arxiv.org/abs/2210.05666">paper</a>
+                  <p></p>
+                  <p>
+                    Grouped Vector Attention and Partition-based Pooling make transformers effective and efficient for
+                    point cloud recognition.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="ash_stop()" onmouseover="ash_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="ash_image">
+                      <img src="images/ash_hover.jpg" width="160">
+                    </div>
+                    <img src="images/ash.jpg" width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function ash_start() {
+                      document.getElementById("ash_image").style.opacity = "1";
+                    }
+                    function ash_stop() {
+                      document.getElementById("ash_image").style.opacity = "0";
+                    }
+                    ash_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2110.00511">
+                    <span class="papertitle">ASH: A Modern Framework for Parallel Spatial Hashing in 3D
+                      Perception</span>
+                  </a>
+                  <br>
+                  <a href="https://dongwei.info">Wei Dong</a>,
+                  <strong>Yixing Lao</strong>,
+                  <a href="https://www.cs.cmu.edu/~kaess/">Michael Kaess</a>,
+                  <a href="https://vladlen.info/">Vladlen Koltun</a>
+                  <br>
+                  <em>TPAMI</em>, 2022
+                  <br>
+                  <a href="http://www.open3d.org/docs/latest/tutorial/t_reconstruction_system/index.html">code</a> /
+                  <a href="https://arxiv.org/abs/2110.00511">paper</a>
+                  <p></p>
+                  <p>
+                    A high-performance spatial hashing framework on GPU, demonstrating superior performance with fewer
+                    lines of code on various tasks such as volumetric reconstruction, non-rigid registration, and
+                    spatially varying appearance refinement.
+                  </p>
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+
+          <br><br>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Software</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr onmouseout="camtools_stop()" onmouseover="camtools_start()" bgcolor="#ffffd0">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="camtools_image">
+                      <a href="https://github.com/yxlao/camtools">
+                        <img src="images/camtools_hover.jpg" width="160">
+                      </a>
+                    </div>
+                    <a href="https://github.com/yxlao/camtools">
+                      <img src="images/camtools.jpg" width="160">
+                    </a>
+                  </div>
+                  <script type="text/javascript">
+                    function camtools_start() {
+                      document.getElementById("camtools_image").style.opacity = "1";
+                    }
+                    function camtools_stop() {
+                      document.getElementById("camtools_image").style.opacity = "0";
+                    }
+                    camtools_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://github.com/yxlao/camtools">
+                    <span class="papertitle">CamTools: Camera Tools for Computer
+                      Vision</span>
+                  </a>
+                  <br>
+                  <a href="https://github.com/yxlao/camtools">project</a>
+                  /
+                  <a href="https://github.com/yxlao/camtools">code</a>
+                  <p></p>
+                  <p>
+                    A collection of tools for handling cameras in computer
+                    vision. Plot, convert, project, ray cast, and do more with your cameras. A must-have for debugging
+                    NeRFs and 3D reconstruction.
+                  </p>
+                </td>
+              </tr>
+
+              <tr onmouseout="open3d_stop()" onmouseover="open3d_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="open3d_image">
+                      <a href="https://www.open3d.org">
+                        <img src="images/open3d_hover.jpg" width="160">
+                      </a>
+                    </div>
+                    <a href="https://www.open3d.org">
+                      <img src="images/open3d.jpg" width="160">
+                    </a>
+                  </div>
+                  <script type="text/javascript">
+                    function open3d_start() {
+                      document.getElementById("open3d_image").style.opacity = "1";
+                    }
+                    function open3d_stop() {
+                      document.getElementById("open3d_image").style.opacity = "0";
+                    }
+                    open3d_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://www.open3d.org">
+                    <span class="papertitle">Open3D: A Modern Library for 3D
+                      Data Processing</span>
+                  </a>
+                  <br>
+                  <a href="https://www.open3d.org">project</a>
+                  /
+                  <a href="https://github.com/isl-org/Open3D">code</a>
+                  <p></p>
+                  <p>
+                    The leading open-source library for 3D processing with 400K+ monthly downloads from PyPI. Open3D
+                    exposes a set of carefully selected data structures and algorithms in both C++ and Python.
+                  </p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tr>
+              <td>
+                <br>
+                <p align="right">
+                  <font size="2">
+                    Yep, it's yet another <a href="https://github.com/jonbarron/website">Jon Barron</a>
+                    website.
+                    <br>
+                    Last updated December 2023.
+                  </font>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>

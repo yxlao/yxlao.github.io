@@ -97,6 +97,57 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="lidarnerf_stop()" onmouseover="lidarnerf_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="lidarnerf_image">
+                      <a href="https://tangtaogo.github.io/lidar-nerf-website/">
+                        <img src="images/lidarnerf_hover.jpg" width="160">
+                      </a>
+                    </div>
+                    <a href="https://tangtaogo.github.io/lidar-nerf-website/">
+                      <img src="images/lidarnerf.jpg" width="160">
+                    </a>
+                  </div>
+                  <script type="text/javascript">
+                    function lidarnerf_start() {
+                      document.getElementById("lidarnerf_image").style.opacity = "1";
+                    }
+                    function lidarnerf_stop() {
+                      document.getElementById("lidarnerf_image").style.opacity = "0";
+                    }
+                    lidarnerf_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://tangtaogo.github.io/lidar-nerf-website/">
+                    <span class="papertitle">LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields</span>
+                  </a>
+                  <br>
+                  <a href="https://scholar.google.com.hk/citations?user=1ltylFwAAAAJ&hl=zh-CN&oi=sra">Tao Tang</a>,
+                  <a href="https://damo.alibaba.com/labs/intelligent-transportation">Longfei Gao</a>,
+                  <a href="https://wanggrun.github.io/">Guangrun Wang</a>,
+                  <strong><a href="https://yxlao.github.io">Yixing Lao</a></strong>,
+                  <a href="https://damo.alibaba.com/labs/intelligent-transportation">Peng Chen</a>,
+                  <a href="https://hszhao.github.io/">Hengshuang Zhao</a>,
+                  <a href="https://damo.alibaba.com/labs/intelligent-transportation">Dayang Hao</a>,
+                  <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ">Xiaodan Liang</a>,
+                  <a href="https://scholar.google.com/citations?user=n-B0jr4AAAAJ">Mathieu Salzmann</a>,
+                  <a href="https://scholar.google.com.hk/citations?user=Jtmq_m0AAAAJ&hl=zh-CN&oi=sra">Kaicheng Yu</a>
+                  <br>
+                  <em>ACM Multimedia</em>, 2024
+                  <br>
+                  <a href="https://github.com/tangtaogo/lidar-nerf/tree/main">code</a> /
+                  <a href="https://arxiv.org/abs/2304.10406">paper</a> /
+                  <a href="https://youtu.be/YX4LX025mZQ">video</a>
+                  <p></p>
+                  <p>
+                    Novel approach for synthesizing LiDAR views using neural radiance fields, enhancing the accuracy and
+                    realism of 3D scene reconstructions.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="owl_stop()" onmouseover="owl_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -137,7 +188,8 @@
                   <br>
                   <em>3DV</em>, 2024
                   <br>
-                  <a href="">paper (TBA)</a>
+                  <a href="https://github.com/isl-org/objects-with-lighting">code</a> /
+                  <a href="https://arxiv.org/abs/2401.09126">paper</a>
                   <p></p>
                   <p>
                     A real-world dataset for evaluating inverse rendering methods in object

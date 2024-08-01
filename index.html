@@ -97,6 +97,53 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="pixelgs_stop()" onmouseover="pixelgs_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="pixelgs_image">
+                      <a href="https://pixelgs.github.io/">
+                        <img src="images/pixelgs_hover.jpg" width="160">
+                      </a>
+                    </div>
+                    <a href="https://pixelgs.github.io/">
+                      <img src="images/pixelgs.jpg" width="160">
+                    </a>
+                  </div>
+                  <script type="text/javascript">
+                    function pixelgs_start() {
+                      document.getElementById("pixelgs_image").style.opacity = "1";
+                    }
+                    function pixelgs_stop() {
+                      document.getElementById("pixelgs_image").style.opacity = "0";
+                    }
+                    pixelgs_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://pixelgs.github.io/">
+                    <span class="papertitle">Pixel-GS: Density Control with Pixel-aware Gradient for 3D Gaussian
+                      Splatting</span>
+                  </a>
+                  <br>
+                  <a href="https://pixelgs.github.io/">Zheng Zhang</a>,
+                  <a href="https://wbhu.github.io/">Wenbo Hu</a>,
+                  <strong>Yixing Lao</strong>,
+                  <a href="https://tonghe90.github.io/">Tong He</a>,
+                  <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
+                  <br>
+                  <em>ECCV</em>, 2024
+                  <br>
+                  <a href="https://pixelgs.github.io/">project</a> /
+                  <a href="https://github.com/zhengzhang01/Pixel-GS">code</a> /
+                  <a href="https://arxiv.org/abs/2403.15530">paper</a>
+                  <p></p>
+                  <p>
+                    Pixel-aware gradients and scaled gradient field can improve 3D Gaussian Splatting density control.
+                  </p>
+                </td>
+              </tr>
+
+
               <tr onmouseout="lidarnerf_stop()" onmouseover="lidarnerf_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -127,7 +174,7 @@
                   <a href="https://scholar.google.com.hk/citations?user=1ltylFwAAAAJ&hl=zh-CN&oi=sra">Tao Tang</a>,
                   <a href="https://damo.alibaba.com/labs/intelligent-transportation">Longfei Gao</a>,
                   <a href="https://wanggrun.github.io/">Guangrun Wang</a>,
-                  <strong><a href="https://yxlao.github.io">Yixing Lao</a></strong>,
+                  <strong>Yixing Lao</strong>,
                   <a href="https://damo.alibaba.com/labs/intelligent-transportation">Peng Chen</a>,
                   <a href="https://hszhao.github.io/">Hengshuang Zhao</a>,
                   <a href="https://damo.alibaba.com/labs/intelligent-transportation">Dayang Hao</a>,
@@ -142,8 +189,8 @@
                   <a href="https://youtu.be/YX4LX025mZQ">video</a>
                   <p></p>
                   <p>
-                    Novel approach for synthesizing LiDAR views using neural radiance fields, enhancing the accuracy and
-                    realism of 3D scene reconstructions.
+                    LiDAR novel-view synthesis with neural radiance fields, enhancing realism for 3D scene
+                    reconstructions.
                   </p>
                 </td>
               </tr>
@@ -198,7 +245,7 @@
                 </td>
               </tr>
 
-              <tr onmouseout="corresnerf_stop()" onmouseover="corresnerf_start()" bgcolor="#ffffd0">
+              <tr onmouseout="corresnerf_stop()" onmouseover="corresnerf_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id="corresnerf_image">
@@ -354,7 +401,7 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
-              <tr onmouseout="camtools_stop()" onmouseover="camtools_start()" bgcolor="#ffffd0">
+              <tr onmouseout="camtools_stop()" onmouseover="camtools_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id="camtools_image">

@@ -97,6 +97,53 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="lit_stop()" onmouseover="lit_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="lit_image">
+                      <a href="https://yxlao.github.io/lit/">
+                        <img src="images/lit_hover.gif" width="160">
+                      </a>
+                    </div>
+                    <a href="https://yxlao.github.io/lit/">
+                      <img src="images/lit.jpg" width="160">
+                    </a>
+                  </div>
+                  <script type="text/javascript">
+                    function lit_start() {
+                      document.getElementById("lit_image").style.opacity = "1";
+                    }
+                    function lit_stop() {
+                      document.getElementById("lit_image").style.opacity = "0";
+                    }
+                    lit_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://yxlao.github.io/lit/">
+                    <span class="papertitle">LiT: Unifying LiDAR "Languages" with LiDAR Translator</span>
+                  </a>
+                  <br>
+                  <strong>Yixing Lao</strong>,
+                  <a href="https://scholar.google.co.jp/citations?user=1ltylFwAAAAJ">Tao Tang</a>,
+                  <a href="https://xywu.me/">Xiaoyang Wu</a>,
+                  <a href="https://damo.alibaba.com/labs/intelligent-transportation">Peng Chen</a>,
+                  <a href="https://www.yukaicheng.cn/">Kaicheng Yu</a>,
+                  <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
+                  <br>
+                  <em>NeurIPS</em>, 2024
+                  <br>
+                  <a href="https://yxlao.github.io/lit/">project</a> /
+                  <a href="https://github.com/yxlao/lit">code</a> /
+                  <a href="https://yxlao.github.io/lit/lit_paper.pdf">paper</a>
+                  <p></p>
+                  <p>
+                    A framework for unifying LiDAR data from different domains into a single target "language", enabling
+                    efficient zero-shot and unified domain detection capabilities.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="pixelgs_stop()" onmouseover="pixelgs_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
@@ -142,7 +189,6 @@
                   </p>
                 </td>
               </tr>
-
 
               <tr onmouseout="lidarnerf_stop()" onmouseover="lidarnerf_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
@@ -492,7 +538,7 @@
                     Check out the <a href="https://github.com/yxlao/yxlao.github.io">source code</a> for this website.
                     Yep, it's yet another <a href="https://github.com/jonbarron/website">Jon Barron</a> site.
                     <br>
-                    Last updated December 2023.
+                    Last updated Oct 2024.
                   </font>
                 </p>
               </td>

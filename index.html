@@ -63,7 +63,7 @@
             </tbody>
           </table>
 
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10" style="display:none;">
+          <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10" style="display:none;">
             <tbody>
               <tr>
                 <td>
@@ -81,7 +81,7 @@
                 </td>
               </tr>
             </tbody>
-          </table>
+          </table> -->
 
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
             <tbody>
@@ -96,6 +96,55 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+
+              <tr onmouseout="concerto_stop()" onmouseover="concerto_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="concerto_image">
+                      <a href="https://pointcept.github.io/Concerto/">
+                        <img src="images/concerto_hover.jpg" width="160">
+                      </a>
+                    </div>
+                    <a href="https://pointcept.github.io/Concerto/">
+                      <img src="images/concerto.jpg" width="160">
+                    </a>
+                  </div>
+                  <script type="text/javascript">
+                    function concerto_start() {
+                      document.getElementById("concerto_image").style.opacity = "1";
+                    }
+                    function concerto_stop() {
+                      document.getElementById("concerto_image").style.opacity = "0";
+                    }
+                    concerto_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://pointcept.github.io/Concerto/">
+                    <span class="papertitle">Concerto: Joint 2D-3D Self-Supervised Learning Emerges Spatial
+                      Representations</span>
+                  </a>
+                  <br>
+                  <a href="https://yjzhang.top/">Yujia Zhang</a>,
+                  <a href="https://xywu.me/">Xiaoyang Wu</a>,
+                  <strong>Yixing Lao</strong>,
+                  <a href="https://chengywang.github.io/">Chengyao Wang</a>,
+                  <a href="https://tianzt.github.io/">Zhuotao Tian</a>,
+                  <a href="https://winsty.net/">Naiyan Wang</a>,
+                  <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
+                  <br>
+                  <em>NeurIPS</em>, 2025
+                  <br>
+                  <a href="https://pointcept.github.io/Concerto/">project</a> /
+                  <a href="https://github.com/Pointcept/Concerto">code</a> /
+                  <a href="https://arxiv.org/abs/2510.23607">paper</a>
+                  <p></p>
+                  <p>
+                    Concerto combines 3D intra-modal self-distillation with 2D-3D cross-modal joint embedding to learn
+                    superior spatial representations, setting new SOTA across multiple scene understanding benchmarks.
+                  </p>
+                </td>
+              </tr>
 
               <tr onmouseout="lit_stop()" onmouseover="lit_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">

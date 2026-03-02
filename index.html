@@ -16,9 +16,9 @@
 
   <meta name="author" content="Yixing Lao">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon/favicon.ico" media="(prefers-color-scheme: light)">
-  <link rel="icon" href="images/favicon/favicon.ico" media="(prefers-color-scheme: dark)">
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon/favicon.ico" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="assets/favicon/favicon.ico" media="(prefers-color-scheme: dark)">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 </head>
@@ -56,8 +56,8 @@
                   </p>
                 </td>
                 <td style="padding:2.5%;width:32%;max-width:32%">
-                  <a href="images/profile.jpg"><img style="width:100%;max-width:100%;object-fit: cover;
-                  border-radius: 50%;" alt="profile photo" src="images/profile.jpg" class="hoverZoomLink"></a>
+                  <a href="assets/profile.jpg"><img style="width:100%;max-width:100%;object-fit: cover;
+                  border-radius: 50%;" alt="profile photo" src="assets/profile.jpg" class="hoverZoomLink"></a>
                 </td>
               </tr>
             </tbody>
@@ -97,16 +97,69 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="lgtm_stop()" onmouseover="lgtm_start()">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id="lgtm_image">
+                      <a href="https://yxlao.github.io/lgtm/">
+                        <img src="assets/lgtm_hover.jpg" width="160">
+                      </a>
+                    </div>
+                    <a href="https://yxlao.github.io/lgtm/">
+                      <img src="assets/lgtm.jpg" width="160">
+                    </a>
+                  </div>
+                  <script type="text/javascript">
+                    function lgtm_start() {
+                      document.getElementById("lgtm_image").style.opacity = "1";
+                    }
+                    function lgtm_stop() {
+                      document.getElementById("lgtm_image").style.opacity = "0";
+                    }
+                    lgtm_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://yxlao.github.io/lgtm/">
+                    <span class="papertitle">LGTM: Less Gaussians, Texture More &mdash; 4K Feed-Forward Textured
+                      Splatting</span>
+                  </a>
+                  <br>
+                  <strong>Yixing Lao</strong>,
+                  <a href="https://xuyangbai.github.io/">Xuyang Bai</a>,
+                  <a href="https://xywu.me/">Xiaoyang Wu</a>,
+                  <a href="https://openreview.net/profile?id=~Nuoyuan_Yan1">Nuoyuan Yan</a>,
+                  <a href="https://lzx551402.github.io/">Zixin Luo</a>,
+                  <a href="https://scholar.google.com/citations?user=CtpU8mUAAAAJ">Tian Fang</a>,
+                  <a href="https://www.linkedin.com/in/jnahmias">Jean-Daniel Nahmias</a>,
+                  <a href="https://scholar.google.com/citations?user=pa09Db8AAAAJ">Yanghai Tsin</a>,
+                  <a href="https://scholar.google.com/citations?user=YR1MdT0AAAAJ">Shiwei Li</a>,
+                  <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
+                  <br>
+                  <em>ICLR</em> 2026
+                  <br>
+                  <a href="https://yxlao.github.io/lgtm/">project</a> /
+                  code (coming soon) /
+                  <a href="https://yxlao.github.io/lgtm/assets/lgtm.pdf">paper</a>
+                  <p></p>
+                  <p>
+                    The first native 4K feed-forward method that predicts compact textured Gaussians, decoupling
+                    geometric
+                    complexity from rendering resolution for high-fidelity novel view synthesis.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="concerto_stop()" onmouseover="concerto_start()">
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id="concerto_image">
                       <a href="https://pointcept.github.io/Concerto/">
-                        <img src="images/concerto_hover.jpg" width="160">
+                        <img src="assets/concerto_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="https://pointcept.github.io/Concerto/">
-                      <img src="images/concerto.jpg" width="160">
+                      <img src="assets/concerto.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -133,7 +186,7 @@
                   <a href="https://winsty.net/">Naiyan Wang</a>,
                   <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
                   <br>
-                  <em>NeurIPS</em>, 2025
+                  <em>NeurIPS</em> 2025
                   <br>
                   <a href="https://pointcept.github.io/Concerto/">project</a> /
                   <a href="https://github.com/Pointcept/Concerto">code</a> /
@@ -151,11 +204,11 @@
                   <div class="one">
                     <div class="two" id="lit_image">
                       <a href="https://yxlao.github.io/lit/">
-                        <img src="images/lit_hover.gif" width="160">
+                        <img src="assets/lit_hover.gif" width="160">
                       </a>
                     </div>
                     <a href="https://yxlao.github.io/lit/">
-                      <img src="images/lit.jpg" width="160">
+                      <img src="assets/lit.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -180,7 +233,7 @@
                   <a href="https://www.yukaicheng.cn/">Kaicheng Yu</a>,
                   <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
                   <br>
-                  <em>NeurIPS</em>, 2024
+                  <em>NeurIPS</em> 2024
                   <br>
                   <a href="https://yxlao.github.io/lit/">project</a> /
                   <a href="https://github.com/yxlao/lit">code</a> /
@@ -198,11 +251,11 @@
                   <div class="one">
                     <div class="two" id="pixelgs_image">
                       <a href="https://pixelgs.github.io/">
-                        <img src="images/pixelgs_hover.jpg" width="160">
+                        <img src="assets/pixelgs_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="https://pixelgs.github.io/">
-                      <img src="images/pixelgs.jpg" width="160">
+                      <img src="assets/pixelgs.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -227,7 +280,7 @@
                   <a href="https://tonghe90.github.io/">Tong He</a>,
                   <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
                   <br>
-                  <em>ECCV</em>, 2024
+                  <em>ECCV</em> 2024
                   <br>
                   <a href="https://pixelgs.github.io/">project</a> /
                   <a href="https://github.com/zhengzhang01/Pixel-GS">code</a> /
@@ -244,11 +297,11 @@
                   <div class="one">
                     <div class="two" id="lidarnerf_image">
                       <a href="https://tangtaogo.github.io/lidar-nerf-website/">
-                        <img src="images/lidarnerf_hover.jpg" width="160">
+                        <img src="assets/lidarnerf_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="https://tangtaogo.github.io/lidar-nerf-website/">
-                      <img src="images/lidarnerf.jpg" width="160">
+                      <img src="assets/lidarnerf.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -277,7 +330,7 @@
                   <a href="https://scholar.google.com/citations?user=n-B0jr4AAAAJ">Mathieu Salzmann</a>,
                   <a href="https://scholar.google.com.hk/citations?user=Jtmq_m0AAAAJ&hl=zh-CN&oi=sra">Kaicheng Yu</a>
                   <br>
-                  <em>ACM Multimedia</em>, 2024
+                  <em>ACM MM</em> 2024
                   <br>
                   <a href="https://github.com/tangtaogo/lidar-nerf/tree/main">code</a> /
                   <a href="https://arxiv.org/abs/2304.10406">paper</a> /
@@ -295,11 +348,11 @@
                   <div class="one">
                     <div class="two" id="owl_image">
                       <a href="">
-                        <img src="images/owl_hover.jpg" width="160">
+                        <img src="assets/owl_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="">
-                      <img src="images/owl.jpg" width="160">
+                      <img src="assets/owl.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -328,7 +381,7 @@
                   <a href="https://shenlong.web.illinois.edu/">Shenlong Wang</a>,
                   <a href="https://germanros.net/">German Ros</a>
                   <br>
-                  <em>3DV</em>, 2024
+                  <em>3DV</em> 2024
                   <br>
                   <a href="https://github.com/isl-org/objects-with-lighting">code</a> /
                   <a href="https://arxiv.org/abs/2401.09126">paper</a>
@@ -345,11 +398,11 @@
                   <div class="one">
                     <div class="two" id="corresnerf_image">
                       <a href="https://yxlao.github.io/corres-nerf/">
-                        <img src="images/corresnerf_hover.jpg" width="160">
+                        <img src="assets/corresnerf_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="https://yxlao.github.io/corres-nerf/">
-                      <img src="images/corresnerf.jpg" width="160">
+                      <img src="assets/corresnerf.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -373,7 +426,7 @@
                   <a href="https://xh-liu.github.io/">Xihui Liu</a>,
                   <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
                   <br>
-                  <em>NeurIPS</em>, 2023
+                  <em>NeurIPS</em> 2023
                   <br>
                   <a href="https://yxlao.github.io/corres-nerf/">project</a> /
                   <a href="https://github.com/yxlao/corres-nerf/">code</a> /
@@ -391,11 +444,11 @@
                   <div class="one">
                     <div class="two" id="ptv2_image">
                       <a href="https://github.com/Pointcept/PointTransformerV2">
-                        <img src="images/ptv2_hover.jpg" width="160">
+                        <img src="assets/ptv2_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="href=" https://github.com/Pointcept/PointTransformerV2">
-                      <img src="images/ptv2.jpg" width="160">
+                      <img src="assets/ptv2.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -420,7 +473,7 @@
                   <a href="https://xh-liu.github.io/">Xihui Liu</a>,
                   <a href="https://hszhao.github.io/">Hengshuang Zhao</a>
                   <br>
-                  <em>NeurIPS</em>, 2022
+                  <em>NeurIPS</em> 2022
                   <br>
                   <a href="https://github.com/Pointcept/PointTransformerV2">code</a> /
                   <a href="https://arxiv.org/abs/2210.05666">paper</a>
@@ -437,11 +490,11 @@
                   <div class="one">
                     <div class="two" id="ash_image">
                       <a href="http://www.open3d.org/docs/latest/tutorial/t_reconstruction_system/index.html">
-                        <img src="images/ash_hover.jpg" width="160">
+                        <img src="assets/ash_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="http://www.open3d.org/docs/latest/tutorial/t_reconstruction_system/index.html">
-                      <img src="images/ash.jpg" width="160">
+                      <img src="assets/ash.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -465,7 +518,7 @@
                   <a href="https://www.cs.cmu.edu/~kaess/">Michael Kaess</a>,
                   <a href="https://vladlen.info/">Vladlen Koltun</a>
                   <br>
-                  <em>TPAMI</em>, 2022
+                  <em>TPAMI</em> 2022
                   <br>
                   <a href="http://www.open3d.org/docs/latest/tutorial/t_reconstruction_system/index.html">code</a> /
                   <a href="https://arxiv.org/abs/2110.00511">paper</a>
@@ -501,11 +554,11 @@
                   <div class="one">
                     <div class="two" id="camtools_image">
                       <a href="https://github.com/yxlao/camtools">
-                        <img src="images/camtools_hover.jpg" width="160">
+                        <img src="assets/camtools_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="https://github.com/yxlao/camtools">
-                      <img src="images/camtools.jpg" width="160">
+                      <img src="assets/camtools.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
@@ -541,11 +594,11 @@
                   <div class="one">
                     <div class="two" id="open3d_image">
                       <a href="https://github.com/isl-org/Open3D">
-                        <img src="images/open3d_hover.jpg" width="160">
+                        <img src="assets/open3d_hover.jpg" width="160">
                       </a>
                     </div>
                     <a href="https://github.com/isl-org/Open3D">
-                      <img src="images/open3d.jpg" width="160">
+                      <img src="assets/open3d.jpg" width="160">
                     </a>
                   </div>
                   <script type="text/javascript">
